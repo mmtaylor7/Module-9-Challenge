@@ -1,13 +1,22 @@
 {
-  "name": "static-site",
+  "name": "module-9-challenge",
   "version": "1.0.0",
-  "description": "",
+  "description": "Professional README Generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmtaylor7/Module-9-Challenge.git"
+  },
+  "keywords": [],
+  "author": "Mary Margaret Taylor",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmtaylor7/Module-9-Challenge/issues"
+  },
+  "homepage": "https://github.com/mmtaylor7/Module-9-Challenge#readme",
   "dependencies": {
     "inquirer": "^6.5.0"
   }
