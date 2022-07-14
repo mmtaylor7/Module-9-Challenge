@@ -18,13 +18,23 @@ const questions = [
   },
   {
     type: 'section',
+    message: 'What are the table of contents?',
+    name: 'tableOfContents',
+  },
+  {
+    type: 'section',
     message: 'What are the installation instructions?',
     name: 'installation',
   },
   {
     type: 'section',
-    message: 'What is the usage information? ',
+    message: 'What is the usage information?',
     name: 'usage',
+  },
+  {
+    type: 'section',
+    message: 'What is the licensing?',
+    name: 'license',
   },
   {
     type: 'section',
@@ -36,7 +46,16 @@ const questions = [
     message: 'What are the test instructions?',
     name: 'test',
   },
-
+  {
+    type: 'section',
+    message: 'What is the licensing?',
+    name: 'license',
+  },
+  {
+    type: 'section',
+    message: 'If you have any questions, please refer to',
+    name: 'questions',
+  },
 ];
 
 // TODO: Create a function to write README file
