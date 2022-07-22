@@ -19,5 +19,5 @@ function generateMarkdown(data) {
   else if (data.type == 'section') {
     return `### ${data.title}`
 }
-
+}
 module.exports = generateMarkdown; 
