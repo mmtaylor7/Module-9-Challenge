@@ -7,14 +7,15 @@ const generateMarkdown = require('./utils/generateMarkdown')
 // TODO: Create an array of questions for user input
 const questions = [   
 {
-    type: 'title',
+    type: 'input',
     message: 'What is your project title?',
     name: 'title',
   },
   {
-    type: 'section',
+    type: 'list',
     message: 'What is the description?',
     name: 'description',
+    choices: ['yes', "no"]
   },
   {
     type: 'section',
@@ -33,11 +34,6 @@ const questions = [
   },
   {
     type: 'section',
-    message: 'What is the licensing?',
-    name: 'license',
-  },
-  {
-    type: 'section',
     message: 'What are the contribution guidelines?',
     name: 'contribution',
   },
@@ -47,9 +43,10 @@ const questions = [
     name: 'test',
   },
   {
-    type: 'section',
-    message: 'What is the licensing?',
+    type: 'list',
+    message: 'What is it licensed under?',
     name: 'license',
+    choices: ['Apache 2.0 License', 'Boost Software License 1.0', 'BSD 3-Clause License'],
   },
   {
     type: 'section',
@@ -59,8 +56,10 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    return fs.writeFileSync(path.join(process.cwd(),fileName), data)
+function writeToFile(data) {
+    return fs.writeFileSync("README.md", data, (err) => {
+      if(err) throw err
+    })
 }
 
 // TODO: Create a function to initialize app
@@ -68,8 +67,8 @@ function init() {
     console.log(questions)
 
     inquirer.prompt(questions).then((answers) => {
-        console.log(answers)
-        writeToFile('README.md', generateMarkdown({...answers}))
+        console.table(answers)
+        writeToFile(generateMarkdown(answers))
     })
 }
 
