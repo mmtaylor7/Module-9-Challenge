@@ -31,17 +31,17 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   console.log(data)
   return `#${data.title} 
-## Description: 
+### Description: 
 ${data.description}
-## Table of Contents: 
+### Table of Contents: 
 ${data.tableOfContents}
-## Installation: 
+### Installation: 
 ${data.installation}
-## Usage: 
+### Usage: 
 ${data.usage}
-## Installation: 
+### Installation: 
 ${data.installation}
-## License: 
+### License: 
 ${data.license} Click badge for licensing info: ${renderLicenseBadge(data.license)}`
 }
 module.exports = generateMarkdown; 
