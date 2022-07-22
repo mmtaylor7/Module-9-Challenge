@@ -12,10 +12,9 @@ const questions = [
     name: 'title',
   },
   {
-    type: 'list',
+    type: 'input',
     message: 'What is the description?',
     name: 'description',
-    choices: ['yes', "no"]
   },
   {
     type: 'input',
