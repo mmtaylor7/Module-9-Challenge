@@ -18,38 +18,38 @@ const questions = [
     choices: ['yes', "no"]
   },
   {
-    type: 'section',
+    type: 'input',
     message: 'What are the table of contents?',
     name: 'tableOfContents',
   },
   {
-    type: 'section',
+    type: 'input',
     message: 'What are the installation instructions?',
     name: 'installation',
   },
   {
-    type: 'section',
+    type: 'input',
     message: 'What is the usage information?',
     name: 'usage',
   },
   {
-    type: 'section',
+    type: 'input',
     message: 'What are the contribution guidelines?',
     name: 'contribution',
   },
   {
-    type: 'section',
+    type: 'input',
     message: 'What are the test instructions?',
     name: 'test',
   },
   {
-    type: 'list',
+    type: 'input',
     message: 'What is it licensed under?',
     name: 'license',
     choices: ['Apache 2.0 License', 'Boost Software License 1.0', 'BSD 3-Clause License'],
   },
   {
-    type: 'section',
+    type: 'input',
     message: 'If you have any questions, please refer to',
     name: 'questions',
   },
