@@ -42,6 +42,6 @@ ${data.usage}
 ## Installation: 
 ${data.installation}
 ## License: 
-${data.license} ${renderLicenseBadge(data.license)}`
+${data.license} Click badge for licensing info: ${renderLicenseBadge(data.license)}`
 }
 module.exports = generateMarkdown; 
