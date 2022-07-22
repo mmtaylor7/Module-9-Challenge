@@ -40,7 +40,8 @@ ${data.installation}
 ### Usage: 
 ${data.usage}
 ### License: 
-${data.license} Click badge for licensing info: ${renderLicenseBadge(data.license)}
+${data.license} 
+Click badge for licensing info: ${renderLicenseBadge(data.license)}
 ### Contribution Guidelines: 
 ${data.contribution}
 ### Test Instructions: 
