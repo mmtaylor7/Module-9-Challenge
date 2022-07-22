@@ -33,6 +33,15 @@ function generateMarkdown(data) {
   return `#${data.title} 
 ## Description: 
 ${data.description}
-## ${renderLicenseBadge(data.license)}`
+## Table of Contents: 
+${data.tableOfContents}
+## Installation: 
+${data.installation}
+## Usage: 
+${data.usage}
+## Installation: 
+${data.installation}
+## License: 
+${data.license} ${renderLicenseBadge(data.license)}`
 }
 module.exports = generateMarkdown; 
