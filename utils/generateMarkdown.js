@@ -36,8 +36,8 @@ ${data.description}
 ### Table of Contents:
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#tests)
+- [Contribution](#contribution)
+- [Test](#test)
 - [Questions](#questions)
 - [License](#license) 
 ### Installation: 
@@ -47,9 +47,9 @@ ${data.usage}
 ### License: 
 ${data.license} 
 Click badge for licensing info: ${renderLicenseBadge(data.license)}
-### Contribution Guidelines: 
+### Contribution: 
 ${data.contribution}
-### Test Instructions: 
+### Test: 
 ${data.test}
 ### Any Questions? Please contact: 
 ${data.questions}`
