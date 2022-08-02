@@ -1,18 +1,23 @@
-#as;dflkajsf 
+#ReadMe Generator 
 ### Description: 
-asdfasdf
-### Table of Contents: 
-asdfasf
+A command line application that generates a professional ReadMe
+### Table of Contents:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [License](#license) 
 ### Installation: 
-asfdasfd
+Watch the video for step by step usage.
 ### Usage: 
-asdfasfd
+Open integrated terminal and run the command index.js. Watch video on ReadMe for more information.
 ### License: 
-Apache 2.0 License 
-Click badge for licensing info: [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+Boost Software License 1.0 
+Click badge for licensing info: [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 ### Contribution Guidelines: 
-asdfasfd
+There is no need for contributions.
 ### Test Instructions: 
-asdfasfd
+use npm test
 ### Any Questions? Please contact: 
-asdfasfd
+taylor.marymargaret@gmail.com
